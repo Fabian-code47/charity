@@ -1,0 +1,151 @@
+* {
+  font-family: "Winky Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  height: 100vh;
+}
+
+.main-nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  align-items: center;
+  height: 80px;
+}
+
+.main-logo {
+  height: 56px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.main-nav-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+.main-nav-button-text {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.main-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: #fe6a68;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+a.main-nav-button {
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-hero-container {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100% - 310px);
+}
+
+.main-hero-content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero-content {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.main-highlight {
+  color: #fe6a68;
+}
+
+.main-hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main-hero-image-container {
+    width: 500px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.main-hero-button-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.main-hero-title {
+  font-size: 48px;
+  text-align: left;
+}
+
+.main-hero-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.main-hero-button {
+  display: flex;
+  align-items: center;
+}
+
+.main-hero-link-text {
+  color: #fe6a68;
+
+  a {
+    cursor: pointer;
+    border-bottom: 1px solid #fe6a68;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 60px;
+  margin: 0 100px;
+  height: 120px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  row-gap: 10px;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-logo-container {
+  width: 120px;
+
+  img {
+    width: 100%;
+  }
+}

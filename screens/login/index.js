@@ -6,10 +6,10 @@ const passwordEyeImg = document.querySelector(".password-eye-img");
 const togglePasswordEye = () => {
   if (passwordEyeInput.type == "text") {
     passwordEyeInput.type = "password";
-    passwordEyeImg.src = "./images/show.png";
+    passwordEyeImg.src = "../../images/show.png";
   } else {
     passwordEyeInput.type = "text";
-    passwordEyeImg.src = "./images/hide.png";
+    passwordEyeImg.src = "../../images/hide.png";
   }
 };
 

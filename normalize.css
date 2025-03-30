@@ -13,6 +13,18 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
 /* Sections
      ========================================================================== */
 
