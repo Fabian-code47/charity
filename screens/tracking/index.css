@@ -1,0 +1,159 @@
+* {
+  font-family: "Winky Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  height: 100vh;
+}
+
+.main-nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  align-items: center;
+  height: 80px;
+}
+
+.main-logo {
+  height: 56px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.main-nav-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+.main-nav-button-text {
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.main-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: #fe6a68;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+a.main-nav-button {
+  color: #fff;
+  cursor: pointer;
+}
+
+.tracking-container {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+}
+
+.tracking-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.tracking-item {
+  border-radius: 8px;
+  padding: 10px 20px;
+  box-shadow: -1px 7px 55px -14px rgba(0, 0, 0, 0.57);
+}
+
+.tracking-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tracking-item-text {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.tracking-item-avatar {
+  width: 48px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.tracking-item-expand {
+  width: 16px;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+  }
+}
+
+.tracking-item-content {
+  display: none;
+  position: relative;
+
+  .tracking-bar-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    .tracking-bar {
+      width: 98%;
+      height: 12px;
+      background-color: grey;
+      margin: 0 auto;
+    }
+
+    .tracking-bar--filled {
+      position: absolute;
+      width: 32%;
+      height: 12px;
+      background-color: blue;
+      margin-left: 5px;
+    }
+
+    .tracking-circle-list {
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .tracking-circle-item {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border: 4px solid grey;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .tracking-circle-item--filled {
+        border-color: blue;
+      }
+    }
+  }
+
+  .tracking-check-mark {
+    width: 18px !important;
+    height: 18px;
+  }
+}
+
+.content-expand {
+  display: flex;
+}
