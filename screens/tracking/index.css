@@ -18,6 +18,10 @@
 .main-logo {
   height: 56px;
 
+  a {
+    cursor: pointer;
+  }
+
   img {
     height: 100%;
   }
@@ -31,6 +35,10 @@
 .main-nav-button-text {
   font-weight: 300;
   cursor: pointer;
+
+  a {
+    cursor: pointer;
+  }
 }
 
 .main-button {
@@ -59,12 +67,18 @@ a.main-nav-button {
 .tracking-list {
   display: flex;
   flex-direction: column;
+  row-gap: 16px;
+}
+
+.tracking-title {
+  font-size: 24px;
 }
 
 .tracking-item {
   border-radius: 8px;
   padding: 10px 20px;
-  box-shadow: -1px 7px 55px -14px rgba(0, 0, 0, 0.57);
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 
 .tracking-item-header {
@@ -98,16 +112,19 @@ a.main-nav-button {
 
 .tracking-item-content {
   display: none;
-  position: relative;
+  margin-bottom: 10px;
+  flex-direction: column;
+  row-gap: 40px;
 
   .tracking-bar-container {
+    position: relative;
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
 
     .tracking-bar {
-      width: 98%;
+      width: 92%;
       height: 12px;
       background-color: grey;
       margin: 0 auto;
@@ -118,7 +135,7 @@ a.main-nav-button {
       width: 32%;
       height: 12px;
       background-color: blue;
-      margin-left: 5px;
+      margin-left: 10px;
     }
 
     .tracking-circle-list {
@@ -156,4 +173,46 @@ a.main-nav-button {
 
 .content-expand {
   display: flex;
+}
+
+.tracking-circle-item-container {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4px;
+}
+
+.tracking-item-info-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  .tracking-item-info-title {
+    font-size: 24px;
+  }
+
+  .tracking-item-info-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .tracking-item-info-cell {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    row-gap: 5px;
+    width: 70%;
+
+    .tracking-item-cell-title {
+      font-weight: 400;
+    }
+
+    .tracking-item-anchor {
+      margin-left: 5px;
+      cursor: pointer;
+      color: #fe6a68;
+    }
+  }
 }

@@ -18,17 +18,23 @@
   <body>
     <div class="main-page-wrapper">
       <div class="main-nav-container">
-        <div class="main-logo"><img src="../../images/logo.png" /></div>
+        <div class="main-logo">
+          <a href="/screens/main-page/"><img src="../../images/logo.png" /></a>
+        </div>
         <div class="main-nav-buttons">
-          <div class="main-nav-button-text">Home</div>
-          <div class="main-nav-button-text">Donation</div>
+          <div class="main-nav-button-text">
+            <a href="/screens/main-page">Home</a>
+          </div>
+          <div class="main-nav-button-text">
+            <a href="/screens/tracking">Track Deliveries</a>
+          </div>
           <div class="main-nav-button-text">Campaign</div>
           <div class="main-nav-button-text">About us</div>
         </div>
         <a href="/screens/login" class="main-nav-button main-button">Login</a>
       </div>
       <div class="tracking-container">
-        <div>Tracking</div>
+        <div class="tracking-title">Tracking</div>
         <div class="tracking-list">
           <div class="tracking-item">
             <div class="tracking-item-header">
@@ -50,21 +56,350 @@
                 <div class="tracking-bar"></div>
                 <div class="tracking-bar--filled"></div>
                 <div class="tracking-circle-list">
-                  <div
-                    class="tracking-circle-item tracking-circle-item--filled"
-                  >
-                    <img
-                      class="tracking-check-mark"
-                      src="../../images/check-mark.png"
-                    />
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Ordered</div>
                   </div>
-                  <div
-                    class="tracking-circle-item tracking-circle-item--filled"
-                  >
-                    <img src="../../images/courier-car.png" />
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img src="../../images/courier-car.png" />
+                    </div>
+                    <div>Ready</div>
                   </div>
-                  <div class="tracking-circle-item"></div>
-                  <div class="tracking-circle-item"></div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Shipped</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Estimated Delivery</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tracking-item-info-container">
+                <div class="tracking-item-info-title">Tracking Details</div>
+                <div class="tracking-item-info-content">
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">
+                      Order Description
+                    </div>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus id justo eu purus volutpat faucibus sed id
+                      justo. Aenean in ipsum at nisl finibus dapibus. In varius
+                      mauris tempor orci convallis iaculis sed et felis. Quisque
+                      id consequat ipsum. Aliquam erat volutpat. Pellentesque
+                      hendrerit massa blandit pulvinar sollicitudin.
+                    </div>
+                  </div>
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">AWB</div>
+                    <div class="tracking-item-cell-text">
+                      12345789
+                      <span
+                        ><a
+                          class="tracking-item-anchor"
+                          href="https://www.cargus.ro/personal/urmareste-coletul/?tracking_number=ads&Urm%C4%83re%C8%99te=Urm%C4%83re%C8%99te"
+                          >(View Details)</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tracking-item">
+            <div class="tracking-item-header">
+              <div class="tracking-item-text">
+                <div class="tracking-item-avatar">
+                  <img src="../../images/charity-avatar.png" />
+                </div>
+                <div>Charity Foundation</div>
+              </div>
+              <div class="tracking-item-expand">
+                <img
+                  class="tracking-item-expand-img"
+                  src="../../images/carret-down.png"
+                />
+              </div>
+            </div>
+            <div class="tracking-item-content">
+              <div class="tracking-bar-container">
+                <div class="tracking-bar"></div>
+                <div class="tracking-bar--filled"></div>
+                <div class="tracking-circle-list">
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Ordered</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img src="../../images/courier-car.png" />
+                    </div>
+                    <div>Ready</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Shipped</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Estimated Delivery</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tracking-item-info-container">
+                <div class="tracking-item-info-title">Tracking Details</div>
+                <div class="tracking-item-info-content">
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">
+                      Order Description
+                    </div>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus id justo eu purus volutpat faucibus sed id
+                      justo. Aenean in ipsum at nisl finibus dapibus. In varius
+                      mauris tempor orci convallis iaculis sed et felis. Quisque
+                      id consequat ipsum. Aliquam erat volutpat. Pellentesque
+                      hendrerit massa blandit pulvinar sollicitudin.
+                    </div>
+                  </div>
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">AWB</div>
+                    <div class="tracking-item-cell-text">
+                      12345789
+                      <span
+                        ><a
+                          class="tracking-item-anchor"
+                          href="https://www.cargus.ro/personal/urmareste-coletul/?tracking_number=ads&Urm%C4%83re%C8%99te=Urm%C4%83re%C8%99te"
+                          >(View Details)</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tracking-item">
+            <div class="tracking-item-header">
+              <div class="tracking-item-text">
+                <div class="tracking-item-avatar">
+                  <img src="../../images/charity-avatar.png" />
+                </div>
+                <div>Charity Foundation</div>
+              </div>
+              <div class="tracking-item-expand">
+                <img
+                  class="tracking-item-expand-img"
+                  src="../../images/carret-down.png"
+                />
+              </div>
+            </div>
+            <div class="tracking-item-content">
+              <div class="tracking-bar-container">
+                <div class="tracking-bar"></div>
+                <div class="tracking-bar--filled"></div>
+                <div class="tracking-circle-list">
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Ordered</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img src="../../images/courier-car.png" />
+                    </div>
+                    <div>Ready</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Shipped</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Estimated Delivery</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tracking-item-info-container">
+                <div class="tracking-item-info-title">Tracking Details</div>
+                <div class="tracking-item-info-content">
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">
+                      Order Description
+                    </div>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus id justo eu purus volutpat faucibus sed id
+                      justo. Aenean in ipsum at nisl finibus dapibus. In varius
+                      mauris tempor orci convallis iaculis sed et felis. Quisque
+                      id consequat ipsum. Aliquam erat volutpat. Pellentesque
+                      hendrerit massa blandit pulvinar sollicitudin.
+                    </div>
+                  </div>
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">AWB</div>
+                    <div class="tracking-item-cell-text">
+                      12345789
+                      <span
+                        ><a
+                          class="tracking-item-anchor"
+                          href="https://www.cargus.ro/personal/urmareste-coletul/?tracking_number=ads&Urm%C4%83re%C8%99te=Urm%C4%83re%C8%99te"
+                          >(View Details)</a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tracking-item">
+            <div class="tracking-item-header">
+              <div class="tracking-item-text">
+                <div class="tracking-item-avatar">
+                  <img src="../../images/charity-avatar.png" />
+                </div>
+                <div>Charity Foundation</div>
+              </div>
+              <div class="tracking-item-expand">
+                <img
+                  class="tracking-item-expand-img"
+                  src="../../images/carret-down.png"
+                />
+              </div>
+            </div>
+            <div class="tracking-item-content">
+              <div class="tracking-bar-container">
+                <div class="tracking-bar"></div>
+                <div class="tracking-bar--filled"></div>
+                <div class="tracking-circle-list">
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Ordered</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div
+                      class="tracking-circle-item tracking-circle-item--filled"
+                    >
+                      <img src="../../images/courier-car.png" />
+                    </div>
+                    <div>Ready</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Shipped</div>
+                  </div>
+                  <div class="tracking-circle-item-container">
+                    <div class="tracking-circle-item">
+                      <img
+                        class="tracking-check-mark"
+                        src="../../images/check-mark.png"
+                      />
+                    </div>
+                    <div>Estimated Delivery</div>
+                  </div>
+                </div>
+              </div>
+              <div class="tracking-item-info-container">
+                <div class="tracking-item-info-title">Tracking Details</div>
+                <div class="tracking-item-info-content">
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">
+                      Order Description
+                    </div>
+                    <div>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Phasellus id justo eu purus volutpat faucibus sed id
+                      justo. Aenean in ipsum at nisl finibus dapibus. In varius
+                      mauris tempor orci convallis iaculis sed et felis. Quisque
+                      id consequat ipsum. Aliquam erat volutpat. Pellentesque
+                      hendrerit massa blandit pulvinar sollicitudin.
+                    </div>
+                  </div>
+                  <div class="tracking-item-info-cell">
+                    <div class="tracking-item-cell-title">AWB</div>
+                    <div class="tracking-item-cell-text">
+                      12345789
+                      <span
+                        ><a
+                          class="tracking-item-anchor"
+                          href="https://www.cargus.ro/personal/urmareste-coletul/?tracking_number=ads&Urm%C4%83re%C8%99te=Urm%C4%83re%C8%99te"
+                          >(View Details)</a
+                        ></span
+                      >
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

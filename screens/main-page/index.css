@@ -17,6 +17,7 @@
 
 .main-logo {
   height: 56px;
+  cursor: pointer;
 
   img {
     height: 100%;
@@ -31,6 +32,10 @@
 .main-nav-button-text {
   font-weight: 300;
   cursor: pointer;
+
+  a {
+    cursor: pointer;
+  }
 }
 
 .main-button {
